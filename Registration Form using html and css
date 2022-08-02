@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Registration Form</title>
+  
+</head>
+      <style> 
+
+          h1
+          {
+               color: red;
+          }
+          p
+          {
+   
+              font-size: larger;
+          }
+      </style>
+<body style = "background-color:floralwhite;"> 
+
+     <h1> <b>Registration Form</b> </h1><br>
+     
+     
+     <p style = "color: darkblue;">
+     <lable>First Name : <input type = "text" Name = "First Name" Place Holder = "First Name" Required ></lable>
+     <lable>Last Name : <input type = "text" Name = "Last Name" Place Holder = "Last Name" Required ></lable> </p>
+     <br>
+
+
+     <p style = "color: darkblue;">
+     <lable> Male : <input type = "Radio" Name = "Gender" Value = "Male" Required ></lable>
+     <lable> Female : <input type = "Radio" Name = "Gender" Value = "Female" Required ></lable>
+     <lable> Other : <input type = "Radio" Name = "Other" Value = "Other" Required ></lable> </p>
+     <br>
+
+
+     <p style = "color: darkblue;">
+     <lable> E mail : <input type = "E mail" Name = "E mail" Place Holder = "Your E mail" Required ></lable> </p>
+     <br>
+
+    
+     <p style = "color: darkblue;">
+    <lable> Password : <input type = "Password" Name = "Password" Place Holder = "Your Password" Pattern = ".{5.10}" Required Title = "Please enter your password which length is 5 to 10"></lable>
+    </p><br>
+    
+
+
+    <p style = "color: darkblue;">
+    <label for = "Birthday" > Birtday : </lable>
+     <input type="date" name="birthday" id="Birthday">
+     </p> <br>
+     
+
+     <p style = "color: darkblue;">
+     <lable> I agree to the terms and condition 
+     <input type = "checkbox" Name = "check">
+     </lable>
+     </p><br>
+     
+
+     <p style = "color: darkblue;">
+          <input type = "submit" Name = "submit">
+     </p><br>
+
+
+
+</form> 
+
+</body>
+</html>
